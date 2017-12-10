@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+/* GmarquesCode */
+.Modal_Container {
+	
+}
+
+.BUTModal	{
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+}
+
+.Modal	{
+	z-index:3;display:none;
+	padding-top:100px;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	overflow:auto;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0,0.4)
+}
+.Modal_content	{
+	margin:auto;
+	background-color:#fff;
+	position:relative;
+	padding:0;
+	outline:0;
+	width:600px
+}
+
+.Modal_center	{
+	text-align:center!important
+}
+
+.Modal_xlarge	{
+	font-size:24px!important
+}
+
+.Modal_hover-red:hover	{
+	color:#fff!important;
+	background-color:#f44336!important
+}
+
+.Modal_display-topright	{
+	position:absolute;
+	right:0;
+	top:0
+}
+
+.Modal_Text {
+	margin-left:2%;
+	
+}
+
+.Modal_CheckBox {
+	padding:8px 16px;
+}
+
+.Modal_CheckBoxStyle {
+	width:24px;
+	height:24px;
+	position:relative;
+	top:6px
+}
+
+.Modal_TextBox {
+	padding:8px;
+	display:block;
+	border:1px solid #ccc!important;
+	margin-left:10%;
+	border-bottom:1px solid #ccc;
+	width:80%;
+	margin-bottom:10px!important
+}
+
+.Modal_Esqueceu {
+	float:right!important;
+	padding:8px 16px;
+	display:none;
+}
+
+.Modal_BUTLogin {
+	width:20%;
+	display:inline-block;
+	margin-left:25%;
+	margin-bottom:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="Modal_Container">
+  <button onclick="document.getElementById('Modal').style.display='block'" class="BUTModal" >Login</button>
+
+  <div id="Modal" class="Modal">
+    <div class="Modal_content" style="max-width:600px">
+
+      <div class="Modal_center"><br>
+        <span onclick="document.getElementById('Modal').style.display='none'" class="BUTModal Modal_xlarge Modal_hover-red Modal_display-topright" title="Close">&times;</span>
+     
+        <img src="Imagens/Logo_Adega_Pequeno_100.png" alt="Logo" style="width:25%">
+      </div>
+
+      <form class="Modal_Container" action="/action_page.php">
+        <div>
+          <label class="Modal_Text"><b>Login:</b></label>
+          <input class="Modal_TextBox" type="text" placeholder="Enter Username" name="usrname" required>
+          <label class="Modal_Text"><b>Senha:</b></label>
+          <input class="Modal_TextBox" type="password" placeholder="Enter Password" name="psw" required>
+          <button class="Modal_BUTLogin Modal_CheckBox" type="submit">Login</button>
+          <span class="w3-hide-small"><a href="#">Esqueceu a Senha?</a></span>
+      </div>
+        </div>
+      </form>        
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+

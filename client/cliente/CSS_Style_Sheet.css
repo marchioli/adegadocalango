@@ -1,0 +1,620 @@
+@charset "utf-8";
+/* CSS Document */
+
+#BackGround {
+	width:100%;
+	height:100%;
+	-webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */ 
+    flex: 1;
+}	
+
+#Header {
+	border-top:solid 3px #F00;
+	border-radius: 20px;
+	width:100%;
+	height:5px;	
+}
+
+#Topo {
+	width:100%;
+	height:100%;
+	display:flex;
+}
+
+.altera {
+	width:100%;
+	height:100%;
+	background-color:rgb(255,255,255);
+	border:#fff;
+	text-decoration: none;
+ 	font: bold 14px "Arial", Helvetica, Arial, sans-serif;
+  	text-transform: uppercase;	
+}
+
+#BemVindo {
+	width:100%;
+	font-family:Verdana,sans-serif;
+	font-size:14px;
+	padding-left:10px;
+	margin-left:5%;
+	display:flex;
+
+}
+
+#BemVindoBut {
+	width:41%;
+	padding-left:10px;
+	margin-left:5%;
+
+}
+
+#SearchBar2 {
+	margin-top:10px;
+	width:60%;
+}
+
+#SearchBar {
+	width:100%;
+	display:inline-block;
+	height:50px;
+	margin-top:5px;
+	margin-left:5%;
+	border:outset 6px #ed1111;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding:7px;
+}
+
+#logo {
+	background-image:url(Imagens/Logo_Adega_Pequeno.png);
+	margin-top:1px;
+	margin-left:3%;
+	width:150px;
+	height:149px;
+}
+
+#Menu {
+	width:100%;
+	height:60px;
+	background:url(Imagens/banners/Menu.jpg);
+	font:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	padding-top:5px;
+	text-align:center;
+}
+#Body {
+	width:70%;
+	margin-left:15%;
+	display: flex;
+	margin-top:5px;
+	font-family:Verdana,sans-serif;
+	font-size:24px;
+	text-align:center;
+	color:#06c;
+}
+
+#Conteudo {
+	width:70%;
+	display: flex;
+	margin-top:20px;
+	height:100%;
+	margin-left:15%;
+	margin-top:2px;
+	border-top:solid 3px #06c;
+	font-family:"Times New Roman", Times, serif;
+	text-align:center;
+	font-size:28px;
+	color:rgb(0,51,255);
+}
+
+#rodape {
+	margin-left:15%;
+	width:70%;
+	height:100%;
+	margin-top:10px;
+	color:#06c;
+	border-top:solid 3px #06c;
+}
+
+#Rodape_Quemsomos {
+	width:100%;
+	display:flex;
+	height:100%;
+}
+
+#TextoConteudo {
+	color:#888;
+	font-family:Verdana,sans-serif;
+	text-align:capitalize;
+	font-size:16px
+	margin-bottom:2px;
+}
+
+#TextoTitulos {
+	font-family:Verdana,sans-serif;
+	text-align:left;
+	font-size:24px;
+}
+
+#TextoTitulosPequeno {
+	margin-top:10px;
+	font-family:Verdana,sans-serif;
+	text-align:left;
+	font-size:18px;
+}
+
+#Rodape_Contatos {
+	width:32.74%;
+	display:inline-block;
+	height:100%;
+	border-bottom:solid 1px #06c;
+}
+
+#Rodape_Localizacao {
+	width:60%;
+	display:inline-block;
+	height:100%;
+	border-bottom:solid 1px #06c;
+}
+
+/* GmarquesCode */
+.Modal_Container {
+	
+}
+
+.BUTModal	{
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+}
+
+.Modal	{
+	background-color:#000;
+	display:none;
+	padding-top:100px;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.8)
+}
+.Modal_content	{
+	margin:auto;
+	border-radius:20px;
+	background-color:#fff;
+	color: #212121;
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+	position:relative;
+	padding:0;
+	outline:0;
+	width:600px
+}
+
+.Modal_center	{
+	text-align:center!important
+}
+
+.Modal_xlarge	{
+	font-size:24px!important
+}
+
+.Modal_hover-red:hover	{
+	color:#fff!important;
+	background-color:#f44336!important
+}
+
+.Modal_display-topright	{
+	position:absolute;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	right:0;
+	top:0
+}
+
+.Modal_Text {
+	margin-top:10px;
+	margin-left:2%;
+	
+}
+
+.Modal_Text:hover {
+	margin-top:10px;
+	margin-left:2%;
+	color:rgb(0,0,255);
+	
+}
+
+.Modal_CheckBox {
+	padding:8px 16px;
+}
+
+.Modal_CheckBox a:hover {
+	color: #212121;
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+.Modal_CheckBoxStyle {
+	width:24px;
+	height:24px;
+	position:relative;
+	top:6px
+}
+
+.Modal_Conteudo {
+	width:100%;
+	height:100%;
+	box-sizing: border-box;
+    text-align:left;
+}
+
+.Modal_TextBox {
+	padding:8px;
+	display:block;
+	border:1px solid #ccc!important;
+	margin-left:10%;
+	border-bottom:1px solid #ccc;
+	width:80%;
+	text-align:left;
+	margin-bottom:10px!important
+}
+
+.Modal_Esqueceu {
+	float:right!important;
+	padding:8px 16px;
+	display:none;
+}
+
+.Modal_BUTLogin {
+	background-color:#fff;
+	width:20%;
+	display:inline-block;
+	margin-left:25%;
+	border-radius: 4px 0 0 4px;
+	border: 1;
+	border-radius:8px;
+	margin-bottom:15px;
+}
+
+.Modal_BUTLogin:hover {
+	color: #212121;
+	box-shadow: inset 0 0 10px 1px rgba(0, 102, 204, .5);
+}
+
+/* Itens */
+.Item {
+    width: 25%;
+    height: 500px;
+    margin: 10px;
+}
+.Item1 {
+    width: 25%;
+    height: 500px;
+    margin: 10px;
+}
+
+.Item2 {
+    width: 25%;
+    height: 500px;
+    margin: 10px;
+}
+
+
+.Item:hover {
+    width: 25%;
+    height: 500px;
+    margin: 10px;
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+.ItensImage {
+    width: 80%;
+    height: 350px;
+}
+.ItensImage img {
+    width: 100%;
+    height: 350px;
+}
+
+.ItensImage:hover {
+    width: 100%;
+    height: 350px;
+	color: #212121;
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+.ItensNome {
+    width:100%;
+    height: 50px;
+	font-family:"MS Serif", "New York", serif;
+	text-align:center;
+	font-size:28px;
+	font-style:bold;
+}
+
+.ItensNome:hover {
+    width:100%;
+    height: 50px;
+	font-family:"MS Serif", "New York", serif;
+	text-align:center;
+	font-size:28px;
+	font-style:bold;
+	color: #212121;
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+.ItensPreco {
+    width:100%;
+    height: 50px;
+	font-family:"MS Serif", "New York", serif;
+	text-align:center;
+	font-size:28px;
+	font-style:bold;
+}
+
+.ItensPreco:hover{
+    width:100%;
+    height: 50px;
+	font-family:"MS Serif", "New York", serif;
+	text-align:center;
+	font-size:28px;
+	font-style:bold;
+	color: #212121;
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+#ItensQTD {
+    width:100%;
+    height:50px;
+	display:flex;
+}
+
+#ItensQTDLabel {
+    width:50%;
+    height:40px;
+	font-size:15px;
+	margin-top:5px;
+	border:outset 3px #ed1111;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+}
+
+#ItensPlus {
+    width:25%;
+    height:50px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+#ItensMinor {
+    width:25%;
+    height:50px;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.ItensPlusMinor {
+	width:100%;
+	height:100%;
+	text-decoration: none;
+ 	font: bold 14px "Arial", Helvetica, Arial, sans-serif;
+  	text-transform: uppercase;
+}
+
+.ItensPlusMinor:hover {
+ 	 color: #212121;
+	  box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+/* BemVindoBut */
+
+.BemVindoBut ul {
+ 	 font: bold 10px "Arial", Helvetica, Arial, sans-serif;
+ 	 text-transform: uppercase;
+}
+.BemVindoBut li {
+	  display: inline-block;
+}
+.BemVindoBut a {
+	color: #212121;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+.BemVindoBut a:hover {
+	color: #212121;
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+.BemVindoBut li:first-child a {
+	border-radius: 4px 0 0 4px;
+}
+.BemVindoBut li:last-child a {
+	border-right: 0;
+	border-radius: 0 4px 4px 0;
+}
+
+/* Carinho */
+
+.MeuCarrinho ul {
+	width:160px;
+	margin-left:40px;
+	text-decoration: none;
+ 	font: bold 14px "Arial", Helvetica, Arial, sans-serif;
+  	text-transform: uppercase;
+}
+.MeuCarrinho li {
+  	display: flex;
+}
+.MeuCarrinho a {
+	  text-decoration: none;
+}
+.MeuCarrinho a:hover {
+ 	 color: #212121;
+	  box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+.MeuCarrinho li:first-child a {
+	  border-radius: 4px 0 0 4px;
+}
+.MeuCarrinho li:last-child a {
+	  border-right: 0;
+}
+
+/* Entrar */
+
+.Entrar ul {
+	width:160px;
+	margin-left:40px;
+	text-decoration: none;
+	display: flex;
+ 	font: bold 14px "Helvetica", Helvetica, Arial, sans-serif;
+  	text-transform: uppercase;
+}
+.Entrar li {
+  	display: flex;
+}
+.Entrar a {
+	  text-decoration: none;
+}
+.Entrar a:hover {
+ 	 color: #212121;
+	  box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+.Entrar li:first-child a {
+	  border-radius: 4px 0 0 4px;
+}
+.Entrar li:last-child a {
+	  border-right: 0;
+}
+
+/* Menu */
+
+.navigation ul {
+ 	 font: bold 16px "Arial", Helvetica, Arial, sans-serif;
+ 	 text-transform: uppercase;
+}
+.navigation li {
+	  display: inline-block;
+}
+.navigation a {
+ 	border-right: solid rgba(0, 0, 0, .3);
+	color: #212121;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #212121;
+	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+.navigation li:first-child a {
+	border-radius: 4px 0 0 4px;
+}
+.navigation li:last-child a {
+	border-right: 0;
+	border-radius: 0 4px 4px 0;
+}
+
+	
+/* Slides */
+
+* {box-sizing:border-box; text-align:center; )
+body {font-family: Times New Roman,sans-serif;}
+.mySlides {
+	display:flex;
+	text-align:center;
+	background-color: #000000;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;  
+  text-align:center;
+  background-position:center;
+  height:400px;
+  background-color:rgb(0,255,102);
+
+}
+
+/* Caption text */
+.text {
+  color: #000000;
+  text-align:center;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  text-align:center;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  text-align:center;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #999;
+  border-radius: 10%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #000000;
+  text-align:center;
+}
+
+/* Fading animation */
+.fade {
+  /*-webkit-animation-name: fade;*/
+  -webkit-animation-direction:normal;
+  -webkit-animation-duration: 1.5s;
+  -webkit-transition:linear;s
+  animation-name: fade;
+  animation-duration: 1.5s;
+  text-align:center;
+}
+
+#LineAboveSlideShow {
+	background:#666;
+	width:100%;
+	border-radius:10%;
+	height:2px;	
+  text-align:center;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+

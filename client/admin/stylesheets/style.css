@@ -1,0 +1,75 @@
+html, body, #base {
+margin: 0;
+width: 100%;
+height: 100%;
+}
+
+#header {
+
+    width: 100%;
+    height: 20%;
+    background-color: #881658;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#corpo {
+    
+        width: 100%;
+       
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        
+    }
+
+#titulo {
+
+    width: 50%;
+    height: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5vw;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+#container {
+
+    width: 60%;
+    height: 80%;
+    background-color: #F3E9F8;
+    border-right: 2px solid #881658;
+    border-left: 2px solid #881658;
+    border-radius: 10px;
+
+}
+
+.jumbotron{
+    
+
+        background-color: #F3E9F8;
+  
+    }
+    
+
+#botoes {
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#cad_area, #log_area {
+    display: none;
+}

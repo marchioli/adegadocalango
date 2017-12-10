@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CUPIT Solutions!</title>
+    <link rel="stylesheet" href="/admin/css/bootstrap.css">
+    <link href="/admin/stylesheets/style.css" rel="stylesheet" />
+
+
+
+
+
+</head>
+
+<body>
+    <div id="base">
+        <div id="header">
+            <div id="titulo">
+                Admin Page
+            </div>
+        </div>
+        <div id="corpo">
+            <div id="container">
+                <div id="cad_area"> 
+                <div class="jumbotron">
+
+                    <div class="container">
+                        <h1>Faça cadastro do produto abaixo!</h1>
+                    
+  
+                        <form action="/salvarProduto" method="POST" enctype="multipart/form-data">
+                        <div id="formExemplo" data-toggle="validator" role="form">
+                            <div class="form-group">
+                                <label for="textNome" class="control-label">Titulo</label>
+                                <input name="titulo" class="form-control" placeholder="Digite o titulo..." type="textarea">
+                            </div>
+  
+                            <div class="form-group">
+                                <label for="inputEmail" class="control-label">Descrição</label>
+                               <textarea name="descricao" class="form-control" placeholder="Descreva o produto"></textarea> 
+                            </div>
+  
+                            <div class="form-group">
+                                <label for="inputPassword" class="control-label">Preço</label>
+                                <input type="textarea" class="form-control" name="preco">
+                            </div>
+  
+                            <div class="form-group">
+                                <label for="inputPassword" class="control-label">Quantidade</label>
+                                <input type="textarea" class="form-control" name="quantidade">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword" class="control-label">Imagem</label>
+                                <input type="file" class="form-control" name="image">
+                            </div>
+  
+                            <button type="submit" class="btn btn-primary" id="botao">Cadastrar</button>
+           
+                        </form>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div id="but_area">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-primary" id="but_cad" >Cadastrar</button>
+                        <button type="button" class="btn btn-primary" id="but_log">Login</button>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+
+
+                <div id="imagem"></div>
+
+    </div>
+    <script src="/admin/js/admin.js" type="text/javascript"></script>
+    <script src="/admin/js/script.js" type="text/javascript"></script>
+
+</body>
+
+</html>

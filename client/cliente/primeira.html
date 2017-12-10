@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "C:\Users\gabri\Desktop\Site_V1_2\Site_V1_2\Site_V1_1\xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adega Do Calango</title>
+<link rel="stylesheet" href="/cliente/w3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link href="/cliente/CSS_Style_Sheet.css" rel="stylesheet" type="text/css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+
+<body>
+<div id="BackGround">
+	<div id="Header">
+	</div>
+	<div id="Topo">
+		<div id="logo"> </div>
+        
+         <div id="SearchBar2">
+          <div id="BemVindo">Bem vindo à Adega do Calango Online! Vamos pra proxima caneca?
+          
+                 <div id="BemVindoBut">
+                  
+                      <nav class="BemVindoBut">
+                          <ul>
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="#">Localização</a></li>
+                            <li><a href="#">Cadastro</a></li>
+                          </ul>
+                    </nav>
+                 </div>
+          
+          </div>
+          
+                    <form action="/produtos" method="post">
+                        <input type="text" id="SearchBar" name="produto" placeholder="Procure aqui!"><button type="submit">Search</button><br>
+                </form>
+      	 </div>
+           
+   	  <div id="MeuCarrinho">
+      		<nav class="Entrar">
+              <ul>
+                <li id="entrar"><a href="#" onclick="document.getElementById('Modal').style.display='block'"><img src="/cliente/Imagens/Menu/Entrar.png" /></a></li>
+              </ul>
+            </nav>
+            
+            <nav class="MeuCarrinho">
+              <ul>
+                <li>
+                <a href="#"><img src="/cliente/Imagens/Menu/MeuCarrinho.png" /></a></li>
+              </ul>
+            </nav>
+            
+    </div> 
+     
+  </div>
+	<div id="Menu">
+        <nav class="navigation">
+          <ul>
+            <li><a href="#" im>Cervejas</a></li>
+            <li><a href="#">Vodkas</a></li>
+            <li><a href="#">Whiskies</a></li>
+            <li><a href="#">Refrigerantes</a></li>
+            <li><a href="#">Aguas</a></li>
+            <li><a href="#">Vinhos</a></li>
+            <li><a href="#">Champagnhes</a></li>
+            <li><a href="#">Rum</a></li>
+            <li><a href="#">Gin</a></li>
+            <li><a href="#">orçamentos</a></li>
+          </ul>
+   		</nav>
+    </div>
+          <div class="w3-container"></div>
+            <div class="w3-content w3-display-container" style=" max-width: 100%;">
+              <img class="mySlides" src="/cliente/Imagens/banners/Whiskies.png" style="width:100%">
+              <img class="mySlides" src="/cliente/Imagens/banners/Vinhos.jpg" style="width:100%">
+              <img class="mySlides" src="/cliente/Imagens/banners/Vodkas.jpg" style="width:100%">
+              <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+              </div>
+  </div>
+<div id="Body">
+   Em Destaque:
+   </div>
+    <div id="Conteudo">
+    	<div id="Item">
+            <div class="ItensImage">
+            	<nav id="img1" class="itensImage">
+                    
+           		</nav>
+            </div>
+            <div id="ItensNome">
+            	<nav id="titulo1"class="ItensNome">Whisky</nav>
+            </div>
+            <div id="ItensPreco">
+            	<nav id="preco1" class="ItensPreco">
+                    	Por: 199,90 R$
+           		</nav>                
+            </div>
+          <div id="ItensQTD">
+                <div id="ItensMinor">
+                	<nav class="ItensPlusMinor">
+                    	<button type="button" class="altera decrescimo"><img src="/cliente/Imagens/Menu/-.png"/></button>
+                    	</a>
+           			</nav>
+                </div>
+
+                <form action="#" method="post">
+            <input type="text" id="ItensQTDLabel" placeholder="Digite!" />
+		</form>
+            <div id="ItensPlus">
+					<nav class="ItensPlusMinor">
+                    	<button type="button" class="altera acrescimo"><img src="/cliente/Imagens/Menu/+.png" /></button>
+           			</nav>
+             </div>
+          </div>
+      </div>
+
+      <!-- Outro item -->
+      <div id="Item1">
+        <div class="ItensImage">
+          <nav id="img2" class="itensImage">
+                  <img src="/cliente/Imagens/iTENS/Garrafa.jpg" />
+           </nav>
+        </div>
+        <div id="ItensNome">
+          <nav id="titulo2" class="ItensNome">Whisky</nav>
+        </div>
+        <div id="ItensPreco">
+          <nav id="preco2" class="ItensPreco">
+                  Por: 199,90 R$
+           </nav>                
+        </div>
+      <div id="ItensQTD">
+            <div id="ItensMinor">
+              <nav class="ItensPlusMinor">
+                  <button type="button" class="altera decrescimo"><img src="/cliente/Imagens/Menu/-.png"/></button>
+                  </a>
+             </nav>
+            </div>
+
+            <form action="#" method="post">
+        <input type="text" id="ItensQTDLabel" placeholder="Digite!" />
+</form>
+        <div id="ItensPlus">
+      <nav class="ItensPlusMinor">
+                  <button type="button" class="altera acrescimo"><img src="/cliente/Imagens/Menu/+.png" /></button>
+             </nav>
+         </div>
+      </div>
+  </div>
+
+
+  <!-- Outro item -->
+      <!-- Outro item -->
+      <div id="Item2">
+        <div class="ItensImage">
+          <nav id="img3" class="itensImage">
+                  <img src="/cliente/Imagens/iTENS/Garrafa.jpg"/>
+           </nav>
+        </div>
+        <div id="ItensNome">
+          <nav id="titulo3" class="ItensNome">Whisky</nav>
+        </div>
+        <div id="ItensPreco">
+          <nav id="preco3" class="ItensPreco">
+                  Por: 199,90 R$
+           </nav>                
+        </div>
+      <div id="ItensQTD">
+            <div id="ItensMinor">
+              <nav class="ItensPlusMinor">
+                  <button type="button" class="altera decrescimo"><img src="/cliente/Imagens/Menu/-.png"/></button>
+                  </a>
+             </nav>
+            </div>
+
+            <form action="#" method="post">
+        <input type="text" id="ItensQTDLabel" placeholder="Digite!" />
+</form>
+        <div id="ItensPlus">
+      <nav class="ItensPlusMinor">
+                  <button type="button" class="altera acrescimo"><img src="/cliente/Imagens/Menu/+.png" /></button>
+             </nav>
+         </div>
+      </div>
+  </div>
+
+
+      <button type="button" onclick="proximoItem()">Proximo</button>
+    </div>
+  </div>  
+
+    
+</div>
+ <div id="rodape">
+    <div id="TextoTitulos">Quem Somos:</div>
+	<div id="Rodape_Quemsomos">
+		<div id="TextoConteudo">
+			Lorem ipsum dolor sit amet, ne vis timeam maiorum, quod theophrastus ex cum. Soluta meliore minimum vim at, vel vocent vivendum ea. Pro at putant similique, ius ex quot consul habemus. Est vero urbanitas gloriatur ea. Ea dicat utamur mandamus ius, te tale eius vel, pri ne brute dicat.
+		</div>
+	</div>
+	<div id="Rodape_Contatos">
+		<div id="TextoTitulosPequeno">
+			Contatos:
+				<div id="TextoConteudo">
+				Adega do Calango<br>
+					Telefone: (19) 1234-5678<br>
+					WhatsApp: (19) 91234-5678<br>
+				</div>
+		</div>
+	</div>
+	<div id="Rodape_Localizacao">
+		<div id="TextoTitulosPequeno">Localização:
+			<div id="TextoConteudo">
+				Rua PUC Campinas Nº7, Valinhos/SP.	
+					<div id="map" style="width:400px;height:400px;background:yellow"></div>
+			</div>
+		</div>
+	
+	
+</div>
+<p>&nbsp; </p>
+<p>&nbsp; </p>
+
+  <div id="Modal" class="Modal">
+    <div class="Modal_content" style="max-width:600px">
+
+      <div class="Modal_center" ><br>
+        <span onclick="document.getElementById('Modal').style.display='none'" class="BUTModal Modal_xlarge Modal_hover-red Modal_display-topright" title="Close">&times;</span>
+     
+        <img src="/cliente/Imagens/Logo_Adega_Pequeno_100.png" alt="Logo" style="width:25%">
+      </div>
+
+      <form class="Modal_Container" action="/login" method="POST">
+        <div class="Modal_Conteudo">
+          <label class="Modal_Text"><b>Login:</b></label>
+          <input class="Modal_TextBox" type="text" placeholder="Username:" name="username" required>
+          <label class="Modal_Text"><b>Senha:</b></label>
+          <input class="Modal_TextBox" type="password" placeholder="Password:" name="password" required>
+          <button class="Modal_BUTLogin Modal_CheckBox" type="submit">Entrar</button>
+          <span class="Modal_Text"><a href="#">Esqueceu a Senha?</a></span>
+      </div>
+        </div>
+      </form>        
+
+    </div>
+  </div>
+
+
+<script>
+
+var slideIndex = 10;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+
+var slideIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+// Cache do elemento para evitar constantes ciclos de procura pelo mesmo
+var $input = $("#ItensQTDLabel");
+
+// Colocar a 0 ao início
+$input.val(0);
+
+// Aumenta ou diminui o valor sendo 0 o mais baixo possível
+$(".altera").click(function() {
+  if ($(this).hasClass('acrescimo'))
+    $input.val(parseInt($input.val()) + 1);
+  else if ($input.val() >= 1)
+    $input.val(parseInt($input.val()) - 1);
+});
+
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.12),
+    zoom: 10,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+
+  </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<script src="/cliente/js/handle.js" type="text/javascript"></script>
+</body>
+
+</html>
